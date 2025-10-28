@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(81, 81, 81);
+}
+
+.nav {
+    background-color: rgb(44, 44, 44);
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav a{
+    color:  whitesmoke;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    position: relative;
+    top: 0px;
+    transition: 500ms;
+}
+
+.nav a:hover {
+    background-color: rgb(81,81, 81);
+    top: -5px;
+}
+
+h1{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gallery img{
+    margin: 10px;
+    border-radius: 10px;
+    width: 200px;
+    transition:  400ms;
+}
+
+.gallery img:hover {
+    transform: scale(120%) rotate(10deg) translate(-20px);
+}
